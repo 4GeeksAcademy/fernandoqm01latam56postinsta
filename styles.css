@@ -1,0 +1,83 @@
+.box1 {
+    border: 3px solid black;
+    width: 500px;
+    height: 570px;
+    position: relative;
+     
+}
+.parte-superior {
+    width: 496px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.imagen {
+    width: 496px;
+    height: 350px;
+   
+}
+.iconos {
+    
+    width: 496px;  
+    display: flex
+}
+.textos {
+    
+    width: 496px;
+    height: 129px;
+    padding: 3px;
+    margin: 3px;
+
+}
+.html {
+    width: 25px;
+    margin: 9px;
+
+}
+.rigo {
+    width: 20px; 
+}
+.puntos {
+    width: 8px;
+    position: absolute;
+    right: 0;
+    margin: 5px;
+}
+.imagen {
+   
+
+}
+.corazon {
+    width: 30px;
+    padding: 3px;
+}
+.comentar {
+    width: 30px;
+    padding: 3px;
+}
+.enviar {
+    width: 30px;
+    margin: 3px;
+}
+.guardar {
+    width: 28px;
+    position: absolute;
+    right: 0;
+    margin: 5px;
+}
+img {
+    width: 500px;
+    height: 350px;
+}
+.textos {
+
+}
+.parra1 {
+
+}
+
+
+.parra2{
+    margin: 15px 0px 0px 0px
+
+}
