@@ -1,83 +1,86 @@
-.box1 {
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
     border: 3px solid black;
     width: 500px;
     height: 570px;
-    position: relative;
-     
-}
-.parte-superior {
-    width: 496px;
-    height: 50px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.parte-superior {
+    width: 499px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    font-size: 35px;
+
 }
-.imagen {
-    width: 496px;
-    height: 350px;
-   
-}
+
 .iconos {
-    
-    width: 496px;  
-    display: flex
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
 }
-.textos {
-    
-    width: 496px;
-    height: 129px;
-    padding: 3px;
-    margin: 3px;
 
-}
-.html {
-    width: 25px;
-    margin: 9px;
-
-}
-.rigo {
-    width: 20px; 
-}
-.puntos {
-    width: 8px;
-    position: absolute;
-    right: 0;
-    margin: 5px;
-}
 .imagen {
-   
-
-}
-.corazon {
-    width: 30px;
-    padding: 3px;
-}
-.comentar {
-    width: 30px;
-    padding: 3px;
-}
-.enviar {
-    width: 30px;
-    margin: 3px;
-}
-.guardar {
-    width: 28px;
-    position: absolute;
-    right: 0;
-    margin: 5px;
-}
-img {
     width: 500px;
     height: 350px;
+    background-color: black;
 }
+
 .textos {
 
-}
-.parra1 {
+    width: 496px;
+    height: 129px;
+    margin: 5px;
+    padding: 5px;
+
 
 }
 
+.html {
+    display: flex;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    margin: 5px;
+    padding: 5px;
+    gap: 5px;
 
-.parra2{
-    margin: 15px 0px 0px 0px
+}
 
+.rigo {
+    font-size: 20px;
+}
+
+.puntos {
+    margin-right: 5px;
+}
+
+.tresiconos {
+
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    padding: 5px;
+    gap: 5px;
+
+}
+
+.guardar {
+    margin-right: 10px;
+}
+.img {
+    width: 100%;
+    height: 100%;
 }
